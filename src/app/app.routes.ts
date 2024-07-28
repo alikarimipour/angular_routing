@@ -8,6 +8,6 @@ export const routes: Routes = [
   {path:'admin',component:AdminParentComponent ,children:[
       {path:'1',component:Admin1Component},
       {path:'2',component:Admin2Component}
-    ]}
-
+    ]},
+  {path:'',component:AdminParentComponent}
 ];
